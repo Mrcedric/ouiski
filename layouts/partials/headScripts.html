@@ -1,6 +1,7 @@
 		{{- /**/}}
 		{{- if eq (getenv "BRANCH") "production" }}
 		{{- .Scratch.Set "siteId" 1 }}
+				  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 		{{- else if eq (getenv "BRANCH") "staging" }}
 		{{- .Scratch.Set "siteId" 2 }}
 		{{- else if eq (getenv "BRANCH") "development" }}
@@ -21,6 +22,4 @@
 			})();
 		</script>
 		{{- end }}
-		  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
 		{{- /**/ -}}
