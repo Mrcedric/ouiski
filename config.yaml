@@ -34,4 +34,4 @@ disableKinds:
 - "taxonomyTerm"
 - "taxonomy"
 - "RSS"
-theme: "Spectral"
+theme: "spectral"
