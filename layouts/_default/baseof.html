@@ -15,9 +15,7 @@
 		{{ safeHTML "<!--[if lte IE 9]>" }}<link rel="stylesheet" href="/css/ie9.css" />{{ safeHTML "<![endif]-->" }}
 		{{- partial "styles" . }}
 		{{- partial "headScripts" . }}
-
-		  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
+		
 	</head>
 	<body {{- if .IsHome }} class="landing"{{ end }}>
 		<div id="page-wrapper">
