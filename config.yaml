@@ -29,7 +29,7 @@ languages:
   ja:
     languageCode: "ja"
 defaultContentLanguage: "fr"
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: false
 disableKinds:
 - "taxonomyTerm"
 - "taxonomy"
