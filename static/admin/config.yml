@@ -17,3 +17,12 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Article", name: "body", widget: "markdown"}
+  - name: "Pages"
+  create: true # Allow users to create new documents in this collection
+  label: "Page"
+  folder: "/content/"
+  slug: "{{slug}}"
+  fields:
+    - {label: "Title", name: "title", widget: "string"}
+    - {label: "Publish Date", name: "date", widget: "datetime"}
+    - {label: "Page", name: "body", widget: "markdown"}
